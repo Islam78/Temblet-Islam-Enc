@@ -1,0 +1,132 @@
+/**************** about **************/ 
+.breadcrumb-holder{background-color:#f5f5f5;}
+.aboutUs{padding: 60px 0 0 0}
+.aboutUs .h1{font-size: 51px;letter-spacing: -3px;font-family: 'Abril Fatface', cursive;}
+.breadcrumb{margin:  0;padding: 10px 0;}
+.about-features {padding-top: 80px;padding-bottom: 80px }
+.about-features h3 {font-family: 'Abril Fatface', cursive;}
+.aboutUs hr 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    border: 0;
+    border-top: 1px solid #838383;
+}
+.about-features p{margin-bottom: 25px;}
+.about-ceo{background: #9999;}
+.about-ceo .container{background: white;}
+.about-ceo h2{margin-bottom: 30px;font-family: 'Abril Fatface', cursive;}
+.about-ceo p{line-height: 35px;letter-spacing: 1px;}
+.about-ceo .container a
+{
+    background-color: #112333;
+    border-radius: 35px;
+    padding: 9px 20px;
+    font-size: 18px;
+    
+}
+
+/**************** FAQ **************/ 
+.faq h2{font-size: 51px;letter-spacing: -1px;font-family: 'Abril Fatface', cursive;}
+.fa-questions h4 {font-family: 'Abril Fatface', cursive;}
+.faq a:after
+{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #333;
+    margin-top: -29px;
+    margin-right: 10px;
+}
+
+.faq  a.collapsed:after{font-family: 'Glyphicons Halflings';content: "\e080";color: #999}
+
+.collapsed h4{color: black;}
+.panel-group .panel-heading{background: #cbcbcb;}
+
+
+
+
+/**************** Map **************/ 
+hr {border-top: 1px solid #000; width:50%;}
+a {color: #000;}
+a:link{text-decoration:none;}
+
+#contact2{letter-spacing:3px;}
+#author a{  color: #fff;
+  text-decoration: none;   }
+
+/**************** cONTACT **************/ 
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#contact{background-color:#525252;font-family: 'Roboto', sans-serif;}
+#contact .well{margin-top:30px; border-radius:0; background: #ffffff;padding: 0px 0 5px 10px;}
+#contact .form-control{border-radius: 0;    border: 2px solid #000000;background: #4e4e4e; color: aliceblue}
+#contact button{border-radius:0;border:2px solid #a2a2a2;color: #fff;background-color: #000; }
+
+#contact .row{margin-bottom:30px;background: #292929;}
+.media img h3, h4{color: #ffffff;}
+@media (max-width: 768px){ 
+    #contact iframe {
+        margin-bottom: 15px;
+    } 
+}
+
+
+/******************** about us ********************/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+body{background: #f2f2f2;font-family: 'Josefin Sans', sans-serif;}
+h3{font-family: 'Josefin Sans', sans-serif;}
+.box{padding:60px 0px;}
+.box-part{
+    background:#FFF;
+    border-radius:10px;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.box-part:hover{background:#4183D7;}
+
+.box-part:hover .fa , 
+.box-part:hover .title , 
+.box-part:hover .text ,
+.box-part:hover a{
+    color:#FFF;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.text{margin:20px 0px;}
+
+.fa{color:#4183D7;}
+/* EFFECTS
+***************/
+
+.glow {
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-transition: text-shadow 1s linear;
+       -moz-transition: text-shadow 1s linear;
+         -o-transition: text-shadow 1s linear;
+            transition: text-shadow 1s linear;
+}
+
+.glow.in {text-shadow: 
+    0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8),
+    0 0 0.5em rgba(255, 255, 255, 0.3);
+}
+
+.fade {
+  opacity: 0;
+    -webkit-transition: opacity 1s linear;
+       -moz-transition: opacity 1s linear;
+         -o-transition: opacity 1s linear;
+            transition: opacity 1s linear;
+}
+.fade.in { opacity: 1;}
+
+
+footer{margin-top:800px;}

@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth
+}
+.carousel-indicators .active ,
+.carousel-indicators .active ,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu .divider
+{
+
+    background-color: #9e9e9ec7;
+}
+
+
+.about h1 span,
+.inater .container span ,
+.footer h2, h1,
+.footer h1,
+.option-box i ,
+.footer h1,
+ .footer .copyright span
+{
+    color:#909fac
+}
+
+.caro .carousel-indicators li.active,
+.option-box .color-box
+{
+    border: solid 3px #171d1e;
+    
+}
+.navbar-inverse .navbar-brand
+{
+    color:#64baff;
+}
+.navbar-nav > li > .dropdown-menu
+
+{
+ border-top: solid 2px #55b1bd;
+}
+
+
+
+
+
+
+
+.carousel-indicators .active ,
+.carousel-indicators .active ,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu .divider
+{
+
+    background-color: #2FC7F7;
+}
+
+
+.about h1 span,
+.inater .container span ,
+.footer h2, h1,
+.footer h1,
+.option-box i ,
+.footer h1,
+ .footer .copyright span
+{
+    color:#839199
+}
+
+.caro .carousel-indicators li.active,
+.option-box .color-box
+{
+    border: solid 3px #e91e63;
+    
+}
+.navbar-inverse .navbar-brand
+{
+    color:#0066A1;
+}
+.navbar-nav > li > .dropdown-menu
+
+{
+ border-top: solid 2px #e91e63;
+}
+
+

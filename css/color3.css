@@ -1,0 +1,41 @@
+
+.carousel-indicators .active ,
+.carousel-indicators .active ,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu .divider
+{
+
+    background-color: #b22727;
+}
+
+
+.about h1 span,
+.inater .container span ,
+.footer h2, h1,
+.footer h1,
+.option-box i ,
+.footer h1,
+ .footer .copyright span
+{
+    color:#682621
+}
+
+.caro .carousel-indicators li.active,
+.option-box .color-box
+{
+    border: solid 3px #009688;
+    
+}
+.navbar-inverse .navbar-brand
+{
+    color:#682621;
+}
+.navbar-nav > li > .dropdown-menu
+
+{
+ border-top: solid 2px #009688;
+}
+

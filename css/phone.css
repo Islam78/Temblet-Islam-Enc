@@ -1,0 +1,33 @@
+@media (max-width:767px) 
+{
+    .navbar-inverse .navbar-nav > li > a
+    {
+        padding:5px
+        
+    }
+    .navbar-inverse .navbar-toggle
+    {
+    border-color: #c49595;
+    color: #fec62b;
+    }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse
+    {
+    max-height: none;
+    }
+    .carousel
+    {
+    display: none;
+    }
+    .subscibe .container .form-control 
+    {
+    
+    
+    width: 100%;
+    margin: 20px;
+    }
+    .static .stat p 
+    {
+    margin-bottom: 35px;
+    
+    }
+}
